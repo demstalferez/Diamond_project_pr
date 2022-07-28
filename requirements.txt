@@ -3,4 +3,4 @@ streamlit
 pandas
 numpy
 streamlit_lottie
-st_aggrid
+streamlit-aggrid
