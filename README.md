@@ -1,4 +1,10 @@
 # Jeweler's Smiles And Sparkles
+
+![](https://github.com/demstalferez/Diamond_project_pr/blob/main/img/d.png)
+
+
+
+
 #### How much can you sell your diamond and how much carats have?
 These are questions that any jewelry owner asks himself.
 Using regression systems we are going to try to predict this for Smiles And Sparkles jewelry customers but before we enter in EDA (Exploratory Data Analysis ) and and we will discover some interesting facts about diamonds.
@@ -21,5 +27,27 @@ Most variables are numeric in nature, but the variables cut, color, and clarity 
 - Matplotlib  # ploting
 - Matplotlib.pyplot  # ploting
 
+#### NULLS VALUES ARE FIXING IN THIS DATASET ( THANKS )
+
+
+### CORRELATION EXAMPLE
+![](https://github.com/demstalferez/Diamond_project_pr/blob/main/img/ouUJtput.png)
+
+
+
+
+
+
+
 ### MACHINE LEARNING
 - Pycaret Regression, targets : Prices and Carats
+
+### MODEL: CatBoost Regressor	
+
+![](https://github.com/demstalferez/Diamond_project_pr/blob/main/img/ouVBVBVtput.png)
+
+### WEBAPP CREATION : 
+
+
+
+
