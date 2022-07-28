@@ -50,4 +50,4 @@ Most variables are numeric in nature, but the variables cut, color, and clarity 
 
 [SEE THE CODE](https://github.com/demstalferez/Diamond_project_pr/blob/main/app.py)
 
-
+![](https://github.com/demstalferez/Diamond_project_pr/blob/main/img/vvv.gif)
