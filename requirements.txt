@@ -2,4 +2,5 @@ pycaret
 streamlit
 pandas
 numpy
+streamlit_lottie
 
