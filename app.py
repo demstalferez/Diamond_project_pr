@@ -190,10 +190,8 @@ with tab_plots:
     tab_plots = tabs[3] #this is the fourth tab
     with tab_plots:
     
-         st.markdown("""
-             <iframe width="600" height="606" src="https://datastudio.google.com/reporting/dde3b825-cdae-49cc-a5c4-a09076e53e77" frameborder="0" style="border:0" allowfullscreen></iframe>
-             """, unsafe_allow_html=True)
-        
+         st.markdown(<iframe width="1200" height="900" src="https://datastudio.google.com/embed/reporting/dde3b825-cdae-49cc-a5c4-a09076e53e77/page/wWxyC" frameborder="0" style="border:0" allowfullscreen></iframe>)
+         
          AgGrid(diamond_sets)
 
 
