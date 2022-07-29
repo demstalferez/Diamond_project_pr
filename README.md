@@ -16,7 +16,9 @@ Most variables are numeric in nature, but the variables cut, color, and clarity 
 
 
 ### [DOWNLOAD DATASET](https://github.com/demstalferez/Diamond_project_pr/blob/main/diamonds.csv)
-### [SEE THE DASHBOARD](https://demstalferez-diamond-project-pr-app-bp821q.streamlitapp.com/)
+### [SEE THE APP](https://demstalferez-diamond-project-pr-app-bp821q.streamlitapp.com/)
+### [SEE THE DASHBOARD](https://datastudio.google.com/reporting/dde3b825-cdae-49cc-a5c4-a09076e53e77/page/wWxyC/)
+
 
 # Exploratory Data Analysis
 ### LIBRARIES
