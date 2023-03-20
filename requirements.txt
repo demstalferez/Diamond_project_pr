@@ -5,3 +5,5 @@ numpy
 streamlit_lottie
 streamlit-aggrid
 catboost
+scikit-learn
+
