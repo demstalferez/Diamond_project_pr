@@ -61,8 +61,8 @@ with col2:
 
 #"""--------------------------------------------------------------------------------------- MODEL CONFIGURATION-------------------------------------------------------------------------------- """
 
-model = load_model('/diamond_model.pkl', "rb")
-model_quality = load_model('/diamond_model_quality.pkl', "rb")
+model = load_model('Diamond_project_pr/diamond_model.pkl')
+model_quality = load_model('Diamond_project_pr/diamond_model_quality.pkl')
 
 
 #"""--------------------------------------------------------------------------------------- SIDEBARD ATRIBUTES -------------------------------------------------------------------------------- """
