@@ -40,8 +40,7 @@ def load_lottieurl(url: str):
 def predictor(model, df): 
     
     predictions_data = predict_model(estimator = model, data = df) 
-    return predictions_data['Label'][0] 
-
+    return predictions_data
  #""" -------------------------------------------------------------------------------------------------HEADER-------------------------------------------------------------------------------- """
 
 # Header configuration, this is the header of the app, lottie + title 
@@ -61,8 +60,8 @@ with col2:
 
 #"""--------------------------------------------------------------------------------------- MODEL CONFIGURATION-------------------------------------------------------------------------------- """
 
-model = load_model('Diamond_project_pr/diamond_model')
-model_quality = load_model('Diamond_project_pr/diamond_model_quality')
+model = load_model("diamond_model")
+model_quality = load_model("diamond_model_quality")
 
 
 #"""--------------------------------------------------------------------------------------- SIDEBARD ATRIBUTES -------------------------------------------------------------------------------- """

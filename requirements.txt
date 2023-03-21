@@ -6,4 +6,6 @@ streamlit_lottie
 streamlit-aggrid
 catboost
 scikit-learn
-
+click==7
+jinja2>=3.0
+pyreadline3 
