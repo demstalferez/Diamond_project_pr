@@ -15243,3 +15243,306 @@ Support for multi-dimensional indexing (e.g. `obj[:, None]`) is deprecated and w
 Support for multi-dimensional indexing (e.g. `obj[:, None]`) is deprecated and will be removed in a future version.  Convert to a numpy array before indexing instead.
 
 
+2023-03-21 14:52:23,112:INFO:Initializing load_model()
+2023-03-21 14:52:23,112:INFO:load_model(model_name=diamond_model, platform=None, authentication=None, verbose=True)
+2023-03-21 14:52:23,121:INFO:Initializing load_model()
+2023-03-21 14:52:23,121:INFO:load_model(model_name=diamond_model_quality, platform=None, authentication=None, verbose=True)
+2023-03-21 14:52:23,146:INFO:Initializing predict_model()
+2023-03-21 14:52:23,146:INFO:predict_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x000002B3F2904D60>, estimator=Pipeline(memory=FastMemory(location=C:\Users\demst\AppData\Local\Temp\joblib),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['carat', 'depth', 'table', 'x',
+                                             'y', 'z'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=['cut', 'color', 'clarity'],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('onehot_encoding',
+                 TransformerWrapper(include=['cut', 'color', 'clarity'],
+                                    transformer=OneHotEncoder(cols=['cut',
+                                                                    'color',
+                                                                    'clarity'],
+                                                              handle_missing='return_nan',
+                                                              use_cat_names=True))),
+                ('normalize', TransformerWrapper(transformer=StandardScaler())),
+                ('trained_model',
+                 <catboost.core.CatBoostRegressor object at 0x000002B3F2808D90>)]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, replace_labels_in_column=<function _SupervisedExperiment.predict_model.<locals>.replace_labels_in_column at 0x000002B3F3F5A3A0>)
+2023-03-21 14:52:23,147:INFO:Checking exceptions
+2023-03-21 14:52:23,147:INFO:Preloading libraries
+2023-03-21 14:52:23,147:INFO:Set up data.
+2023-03-21 14:52:23,155:INFO:Set up index.
+2023-03-21 14:52:24,146:INFO:Initializing predict_model()
+2023-03-21 14:52:24,147:INFO:predict_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x000002B3F2CF5190>, estimator=Pipeline(memory=FastMemory(location=C:\Users\demst\AppData\Local\Temp\joblib),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['carat', 'depth', 'table', 'x',
+                                             'y', 'z'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=['cut', 'color', 'clarity'],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('onehot_encoding',
+                 TransformerWrapper(include=['cut', 'color', 'clarity'],
+                                    transformer=OneHotEncoder(cols=['cut',
+                                                                    'color',
+                                                                    'clarity'],
+                                                              handle_missing='return_nan',
+                                                              use_cat_names=True))),
+                ('normalize', TransformerWrapper(transformer=StandardScaler())),
+                ('trained_model',
+                 <catboost.core.CatBoostRegressor object at 0x000002B3F2808D90>)]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, replace_labels_in_column=<function _SupervisedExperiment.predict_model.<locals>.replace_labels_in_column at 0x000002B3F3595160>)
+2023-03-21 14:52:24,147:INFO:Checking exceptions
+2023-03-21 14:52:24,147:INFO:Preloading libraries
+2023-03-21 14:52:24,147:INFO:Set up data.
+2023-03-21 14:52:24,152:INFO:Set up index.
+2023-03-21 14:52:24,362:INFO:Initializing predict_model()
+2023-03-21 14:52:24,362:INFO:predict_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x000002B3F36A2160>, estimator=Pipeline(memory=FastMemory(location=C:\Users\demst\AppData\Local\Temp\joblib),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['depth', 'table', 'price', 'x',
+                                             'y', 'z'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=['cut', 'color', 'clarity'],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('onehot_encoding',
+                 TransformerWrapper(include=['cut', 'color', 'clarity'],
+                                    transformer=OneHotEncoder(cols=['cut',
+                                                                    'color',
+                                                                    'clarity'],
+                                                              handle_missing='return_nan',
+                                                              use_cat_names=True))),
+                ('normalize', TransformerWrapper(transformer=StandardScaler())),
+                ('trained_model',
+                 <catboost.core.CatBoostRegressor object at 0x000002B3F2904EE0>)]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, replace_labels_in_column=<function _SupervisedExperiment.predict_model.<locals>.replace_labels_in_column at 0x000002B3DC569940>)
+2023-03-21 14:52:24,362:INFO:Checking exceptions
+2023-03-21 14:52:24,362:INFO:Preloading libraries
+2023-03-21 14:52:24,362:INFO:Set up data.
+2023-03-21 14:52:24,362:INFO:Set up index.
+2023-03-21 14:52:24,608:WARNING:C:\Users\demst\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\plotly\express\_core.py:137: FutureWarning:
+
+Support for multi-dimensional indexing (e.g. `obj[:, None]`) is deprecated and will be removed in a future version.  Convert to a numpy array before indexing instead.
+
+
+2023-03-21 14:52:24,610:WARNING:C:\Users\demst\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\plotly\express\_core.py:137: FutureWarning:
+
+Support for multi-dimensional indexing (e.g. `obj[:, None]`) is deprecated and will be removed in a future version.  Convert to a numpy array before indexing instead.
+
+
+2023-03-21 14:52:31,055:INFO:Initializing load_model()
+2023-03-21 14:52:31,055:INFO:load_model(model_name=diamond_model, platform=None, authentication=None, verbose=True)
+2023-03-21 14:52:31,076:INFO:Initializing load_model()
+2023-03-21 14:52:31,076:INFO:load_model(model_name=diamond_model_quality, platform=None, authentication=None, verbose=True)
+2023-03-21 14:52:31,104:INFO:Initializing predict_model()
+2023-03-21 14:52:31,104:INFO:predict_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x000002B3F5600CA0>, estimator=Pipeline(memory=FastMemory(location=C:\Users\demst\AppData\Local\Temp\joblib),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['carat', 'depth', 'table', 'x',
+                                             'y', 'z'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=['cut', 'color', 'clarity'],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('onehot_encoding',
+                 TransformerWrapper(include=['cut', 'color', 'clarity'],
+                                    transformer=OneHotEncoder(cols=['cut',
+                                                                    'color',
+                                                                    'clarity'],
+                                                              handle_missing='return_nan',
+                                                              use_cat_names=True))),
+                ('normalize', TransformerWrapper(transformer=StandardScaler())),
+                ('trained_model',
+                 <catboost.core.CatBoostRegressor object at 0x000002B3F28117F0>)]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, replace_labels_in_column=<function _SupervisedExperiment.predict_model.<locals>.replace_labels_in_column at 0x000002B3F3362820>)
+2023-03-21 14:52:31,104:INFO:Checking exceptions
+2023-03-21 14:52:31,104:INFO:Preloading libraries
+2023-03-21 14:52:31,105:INFO:Set up data.
+2023-03-21 14:52:31,109:INFO:Set up index.
+2023-03-21 14:52:31,835:INFO:Initializing load_model()
+2023-03-21 14:52:31,835:INFO:load_model(model_name=diamond_model, platform=None, authentication=None, verbose=True)
+2023-03-21 14:52:31,859:INFO:Initializing load_model()
+2023-03-21 14:52:31,859:INFO:load_model(model_name=diamond_model_quality, platform=None, authentication=None, verbose=True)
+2023-03-21 14:52:31,895:INFO:Initializing predict_model()
+2023-03-21 14:52:31,896:INFO:predict_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x000002B3F39EA670>, estimator=Pipeline(memory=FastMemory(location=C:\Users\demst\AppData\Local\Temp\joblib),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['carat', 'depth', 'table', 'x',
+                                             'y', 'z'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=['cut', 'color', 'clarity'],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('onehot_encoding',
+                 TransformerWrapper(include=['cut', 'color', 'clarity'],
+                                    transformer=OneHotEncoder(cols=['cut',
+                                                                    'color',
+                                                                    'clarity'],
+                                                              handle_missing='return_nan',
+                                                              use_cat_names=True))),
+                ('normalize', TransformerWrapper(transformer=StandardScaler())),
+                ('trained_model',
+                 <catboost.core.CatBoostRegressor object at 0x000002B3F55800A0>)]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, replace_labels_in_column=<function _SupervisedExperiment.predict_model.<locals>.replace_labels_in_column at 0x000002B3F3F75040>)
+2023-03-21 14:52:31,896:INFO:Checking exceptions
+2023-03-21 14:52:31,896:INFO:Preloading libraries
+2023-03-21 14:52:31,897:INFO:Set up data.
+2023-03-21 14:52:31,904:INFO:Set up index.
+2023-03-21 14:52:31,997:INFO:Initializing predict_model()
+2023-03-21 14:52:31,997:INFO:predict_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x000002B3F33D1EB0>, estimator=Pipeline(memory=FastMemory(location=C:\Users\demst\AppData\Local\Temp\joblib),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['carat', 'depth', 'table', 'x',
+                                             'y', 'z'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=['cut', 'color', 'clarity'],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('onehot_encoding',
+                 TransformerWrapper(include=['cut', 'color', 'clarity'],
+                                    transformer=OneHotEncoder(cols=['cut',
+                                                                    'color',
+                                                                    'clarity'],
+                                                              handle_missing='return_nan',
+                                                              use_cat_names=True))),
+                ('normalize', TransformerWrapper(transformer=StandardScaler())),
+                ('trained_model',
+                 <catboost.core.CatBoostRegressor object at 0x000002B3F55800A0>)]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, replace_labels_in_column=<function _SupervisedExperiment.predict_model.<locals>.replace_labels_in_column at 0x000002B3F3F75040>)
+2023-03-21 14:52:31,998:INFO:Checking exceptions
+2023-03-21 14:52:31,998:INFO:Preloading libraries
+2023-03-21 14:52:31,998:INFO:Set up data.
+2023-03-21 14:52:32,006:INFO:Set up index.
+2023-03-21 14:52:32,126:INFO:Initializing predict_model()
+2023-03-21 14:52:32,126:INFO:predict_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x000002B3F33D1D30>, estimator=Pipeline(memory=FastMemory(location=C:\Users\demst\AppData\Local\Temp\joblib),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['depth', 'table', 'price', 'x',
+                                             'y', 'z'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=['cut', 'color', 'clarity'],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('onehot_encoding',
+                 TransformerWrapper(include=['cut', 'color', 'clarity'],
+                                    transformer=OneHotEncoder(cols=['cut',
+                                                                    'color',
+                                                                    'clarity'],
+                                                              handle_missing='return_nan',
+                                                              use_cat_names=True))),
+                ('normalize', TransformerWrapper(transformer=StandardScaler())),
+                ('trained_model',
+                 <catboost.core.CatBoostRegressor object at 0x000002B3F3F6C490>)]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, replace_labels_in_column=<function _SupervisedExperiment.predict_model.<locals>.replace_labels_in_column at 0x000002B3F33629D0>)
+2023-03-21 14:52:32,126:INFO:Checking exceptions
+2023-03-21 14:52:32,127:INFO:Preloading libraries
+2023-03-21 14:52:32,127:INFO:Set up data.
+2023-03-21 14:52:32,128:INFO:Set up index.
+2023-03-21 14:52:32,279:WARNING:C:\Users\demst\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\plotly\express\_core.py:137: FutureWarning:
+
+Support for multi-dimensional indexing (e.g. `obj[:, None]`) is deprecated and will be removed in a future version.  Convert to a numpy array before indexing instead.
+
+
+2023-03-21 14:52:32,280:WARNING:C:\Users\demst\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\plotly\express\_core.py:137: FutureWarning:
+
+Support for multi-dimensional indexing (e.g. `obj[:, None]`) is deprecated and will be removed in a future version.  Convert to a numpy array before indexing instead.
+
+
+2023-03-21 14:52:34,778:INFO:Initializing load_model()
+2023-03-21 14:52:34,779:INFO:load_model(model_name=diamond_model, platform=None, authentication=None, verbose=True)
+2023-03-21 14:52:34,790:INFO:Initializing load_model()
+2023-03-21 14:52:34,790:INFO:load_model(model_name=diamond_model_quality, platform=None, authentication=None, verbose=True)
+2023-03-21 14:52:34,813:INFO:Initializing predict_model()
+2023-03-21 14:52:34,813:INFO:predict_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x000002B3F33D1370>, estimator=Pipeline(memory=FastMemory(location=C:\Users\demst\AppData\Local\Temp\joblib),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['carat', 'depth', 'table', 'x',
+                                             'y', 'z'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=['cut', 'color', 'clarity'],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('onehot_encoding',
+                 TransformerWrapper(include=['cut', 'color', 'clarity'],
+                                    transformer=OneHotEncoder(cols=['cut',
+                                                                    'color',
+                                                                    'clarity'],
+                                                              handle_missing='return_nan',
+                                                              use_cat_names=True))),
+                ('normalize', TransformerWrapper(transformer=StandardScaler())),
+                ('trained_model',
+                 <catboost.core.CatBoostRegressor object at 0x000002B3F537EA90>)]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, replace_labels_in_column=<function _SupervisedExperiment.predict_model.<locals>.replace_labels_in_column at 0x000002B3F28D3F70>)
+2023-03-21 14:52:34,814:INFO:Checking exceptions
+2023-03-21 14:52:34,815:INFO:Preloading libraries
+2023-03-21 14:52:34,815:INFO:Set up data.
+2023-03-21 14:52:34,822:INFO:Set up index.
+2023-03-21 14:52:35,662:INFO:Initializing load_model()
+2023-03-21 14:52:35,662:INFO:load_model(model_name=diamond_model, platform=None, authentication=None, verbose=True)
+2023-03-21 14:52:35,677:INFO:Initializing load_model()
+2023-03-21 14:52:35,677:INFO:load_model(model_name=diamond_model_quality, platform=None, authentication=None, verbose=True)
+2023-03-21 14:52:35,707:INFO:Initializing predict_model()
+2023-03-21 14:52:35,708:INFO:predict_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x000002B3F33A5820>, estimator=Pipeline(memory=FastMemory(location=C:\Users\demst\AppData\Local\Temp\joblib),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['carat', 'depth', 'table', 'x',
+                                             'y', 'z'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=['cut', 'color', 'clarity'],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('onehot_encoding',
+                 TransformerWrapper(include=['cut', 'color', 'clarity'],
+                                    transformer=OneHotEncoder(cols=['cut',
+                                                                    'color',
+                                                                    'clarity'],
+                                                              handle_missing='return_nan',
+                                                              use_cat_names=True))),
+                ('normalize', TransformerWrapper(transformer=StandardScaler())),
+                ('trained_model',
+                 <catboost.core.CatBoostRegressor object at 0x000002B3F2D8DE50>)]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, replace_labels_in_column=<function _SupervisedExperiment.predict_model.<locals>.replace_labels_in_column at 0x000002B3DC569940>)
+2023-03-21 14:52:35,708:INFO:Checking exceptions
+2023-03-21 14:52:35,708:INFO:Preloading libraries
+2023-03-21 14:52:35,708:INFO:Set up data.
+2023-03-21 14:52:35,715:INFO:Set up index.
+2023-03-21 14:52:35,807:INFO:Initializing predict_model()
+2023-03-21 14:52:35,807:INFO:predict_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x000002B3F5D9C970>, estimator=Pipeline(memory=FastMemory(location=C:\Users\demst\AppData\Local\Temp\joblib),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['carat', 'depth', 'table', 'x',
+                                             'y', 'z'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=['cut', 'color', 'clarity'],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('onehot_encoding',
+                 TransformerWrapper(include=['cut', 'color', 'clarity'],
+                                    transformer=OneHotEncoder(cols=['cut',
+                                                                    'color',
+                                                                    'clarity'],
+                                                              handle_missing='return_nan',
+                                                              use_cat_names=True))),
+                ('normalize', TransformerWrapper(transformer=StandardScaler())),
+                ('trained_model',
+                 <catboost.core.CatBoostRegressor object at 0x000002B3F2D8DE50>)]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, replace_labels_in_column=<function _SupervisedExperiment.predict_model.<locals>.replace_labels_in_column at 0x000002B3F3362040>)
+2023-03-21 14:52:35,809:INFO:Checking exceptions
+2023-03-21 14:52:35,809:INFO:Preloading libraries
+2023-03-21 14:52:35,810:INFO:Set up data.
+2023-03-21 14:52:35,817:INFO:Set up index.
+2023-03-21 14:52:35,899:INFO:Initializing predict_model()
+2023-03-21 14:52:35,900:INFO:predict_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x000002B3F5D9C400>, estimator=Pipeline(memory=FastMemory(location=C:\Users\demst\AppData\Local\Temp\joblib),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['depth', 'table', 'price', 'x',
+                                             'y', 'z'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=['cut', 'color', 'clarity'],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('onehot_encoding',
+                 TransformerWrapper(include=['cut', 'color', 'clarity'],
+                                    transformer=OneHotEncoder(cols=['cut',
+                                                                    'color',
+                                                                    'clarity'],
+                                                              handle_missing='return_nan',
+                                                              use_cat_names=True))),
+                ('normalize', TransformerWrapper(transformer=StandardScaler())),
+                ('trained_model',
+                 <catboost.core.CatBoostRegressor object at 0x000002B3F63FE940>)]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, replace_labels_in_column=<function _SupervisedExperiment.predict_model.<locals>.replace_labels_in_column at 0x000002B3DC569940>)
+2023-03-21 14:52:35,900:INFO:Checking exceptions
+2023-03-21 14:52:35,900:INFO:Preloading libraries
+2023-03-21 14:52:35,901:INFO:Set up data.
+2023-03-21 14:52:35,905:INFO:Set up index.
+2023-03-21 14:52:36,063:WARNING:C:\Users\demst\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\plotly\express\_core.py:137: FutureWarning:
+
+Support for multi-dimensional indexing (e.g. `obj[:, None]`) is deprecated and will be removed in a future version.  Convert to a numpy array before indexing instead.
+
+
+2023-03-21 14:52:36,067:WARNING:C:\Users\demst\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\plotly\express\_core.py:137: FutureWarning:
+
+Support for multi-dimensional indexing (e.g. `obj[:, None]`) is deprecated and will be removed in a future version.  Convert to a numpy array before indexing instead.
+
+
