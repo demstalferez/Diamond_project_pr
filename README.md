@@ -1,4 +1,5 @@
 # Jeweler's Smiles And Sparkles
+# educational purposes in upgrade-hub
 
 ![](https://github.com/demstalferez/Diamond_project_pr/blob/main/img/d.png)
 
